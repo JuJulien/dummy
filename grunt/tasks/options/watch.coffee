@@ -23,3 +23,8 @@ module.exports =
     tasks: [
       'coffee:build'
     ]
+  coffeeCompile:
+    files: '<%= in8.compSrc %>/*.coffee'
+    tasks: [
+      'coffee:compile'
+    ]
